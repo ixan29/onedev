@@ -809,7 +809,7 @@ public class KubernetesExecutor extends JobExecutor implements Testable<TestData
 					List<Action> actions = new ArrayList<>();
 					CommandExecutable executable = new CommandExecutable((String) executionContext, 
 							Lists.newArrayList("this does not matter"));
-					actions.add(new Action(true, executable));
+					//actions.add(new Action(true, executable));
 					entryExecutable = new CompositeExecutable(actions);
 				}
 				
