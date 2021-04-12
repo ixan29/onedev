@@ -27,6 +27,5 @@ public abstract class Step implements Serializable {
 	
 	public Action getAction(BuildSpec buildSpec) {
 		return null;
-		//return new Action(alwaysExecute, getExecutable(buildSpec));
 	}
 }
